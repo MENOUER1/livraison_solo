@@ -1,4 +1,9 @@
 
+  
+
+
+
+
 body{
    
     display: grid;
@@ -6,7 +11,10 @@ body{
   grid-template-rows: auto;
   
   grid-gap: 1rem;
-background-color: blue;
+background-color: burlywood;
+
+
+
 
 
 }
@@ -19,21 +27,21 @@ background-color: blue;
     
    
   }
-   
+   /*header============================================================================*/
   header{
    
     grid-column: span 6;
     text-align: center;
-  background-color: chartreuse;
+  background-color: darkgoldenrod;
   }
-
+/*footer================================================================================*/
   footer{
-    background-color: darkmagenta;
+    background-color: darkslategrey;
    
     
     grid-column: span 6;
 
-   height: 5rem;
+   height: 8rem;
 
  
   }
@@ -43,16 +51,26 @@ background-color: blue;
     grid-row: span 1;
     grid-column: span 6;
 
-    background-color: brown;
-  }
-  nav>ul>li{
+    background-color: cyan;
+
     
-    padding: 1rem;
-  display: inline;
+      
+    }
+    
+    nav>ul>li{
+    
+      padding: 1rem;
+    display: inline ;
+    
+
+  }
+ 
+  
+
   
   
 
-    list-style: none;
+    
     
   }
 
@@ -69,7 +87,7 @@ background-color: blue;
   
 aside>img{
   grid-column: 4;
-height: 20rem;
+height: 30rem;
 width: 20rem;
 
 
@@ -79,10 +97,12 @@ width: 20rem;
 
   
 }
-  
+  /* main===================================================================================*/
 main{
 
 width: 55rem;
+
+display: grid;
 
 
 
@@ -93,10 +113,23 @@ width: 55rem;
 
   display: inline;
 }
+
+ul {
+  
+  display: inline;
+
+
+
+}
+
+article>img{
+
+  grid-column: 4;
+  height: 30rem;
+  width: 20rem;
+
+}
+
+
+
  
-
-
-
-
-
-
