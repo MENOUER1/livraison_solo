@@ -16,20 +16,12 @@
 
 
 
-body{
-   
-    display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: auto;
-  
-  grid-gap: 1rem;
-background-color: burlywood;
 
 
 
 
 
-}
+
 
 
 
@@ -44,7 +36,7 @@ background-color: burlywood;
    
     grid-column: span 6;
     text-align: center;
-  background-color: darkgoldenrod;
+  background-color: darkslategrey;
   }
 /*footer================================================================================*/
   footer{
@@ -63,7 +55,7 @@ background-color: burlywood;
     grid-row: span 1;
     grid-column: span 6;
 
-    background-color: cyan;
+    background-color: aqua;
 
     
       
@@ -88,9 +80,10 @@ background-color: burlywood;
 
 
   aside{
-    width: 30rem;
    
 
+    width: 30rem;
+   
     
     
 
@@ -110,16 +103,24 @@ width: 20rem;
   
 }
   /* main===================================================================================*/
-main{
-
-width: 55rem;
-
-display: grid;
 
 
 
 
-}
+
+
+
+
+
+
+  
+
+
+
+    
+
+
+
 
 .box{
 
@@ -160,6 +161,15 @@ table,tr,td{
 }
 
 
+
+aside>img{
+
+  
+
+  background-color: brown;
+}
+
+ 
 
   
 
