@@ -1,6 +1,18 @@
 
   
 
+@media screen and (min-width:760px)
+
+
+
+  
+
+   
+  
+
+
+
+
 
 
 
@@ -76,7 +88,7 @@ background-color: burlywood;
 
 
   aside{
-    width: 20rem;
+    width: 30rem;
    
 
     
@@ -126,9 +138,33 @@ article>img{
 
   grid-column: 4;
   height: 30rem;
-  width: 20rem;
+  width: 30rem;
+}
+
+aside>img{
+
+  grid-column: 4;
+  height: 30rem;
+  width: 15;
 
 }
+
+
+table,tr,td{
+ 
+    border: 2px solid black;
+    border-collapse: collapse;
+  
+
+
+}
+
+
+
+  
+
+
+
 
 
 
